@@ -1,0 +1,859 @@
+body {
+    font-family: 'open sans';
+    overflow-y: scroll;
+    max-height: 100vh;
+
+}
+
+#app, .container {
+    min-height: 100vh;
+    background-color: #e7e9eb;
+}
+
+.container, .row.grayed {
+    background-color: #e7e9eb;
+}
+
+/* dashboards */
+
+#navigation, #website-page-title, #homeButton {
+    background-color: #273B51;
+}
+
+#bootstrap-overrides-nav-tabs {
+    color: #5875db;
+    background-color: #e7e9eb;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#bootstrap-overrides-nav-tabs.nav.nav-tabs.narrow {
+    width: 90%;
+}
+
+#bootstrap-overrides-nav-tabs .tab {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: table;
+    padding: 15px 0;
+    margin: 0;
+}
+
+#bootstrap-overrides-nav-tabs .tab.centered.widened {
+    height: 100%;
+    text-align: center;
+    display: table-cell;
+    padding: 15px 0;
+    margin: 0;
+}
+
+#bootstrap-overrides-nav-tabs .tab a {
+    font-weight: bold;
+    font-size: 1.4em;
+    display: block;
+    vertical-align: middle;
+}
+
+#bootstrap-overrides-nav-tabs .tab.centered {
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    display: table;
+    padding: 15px;
+}
+
+.main-layout {
+    color: #5875db;
+    background-color: #f1eeeb;
+    width: 100%;
+    height: auto;
+}
+
+/* admin panel tabs and views */
+
+.list-group-item.active.location1 {
+    background-color: #9D9FB5;
+}
+
+.location1 {
+    background-color: #9D9FB5;
+}
+
+.list-group-item.active.location2 {
+    background-color: #b8a668;
+}
+
+.location2 {
+    background-color: #b8a668;
+}
+
+.list-group-item.active.location3 {
+    background-color: #77A0AA;
+}
+
+.location3 {
+    background-color: #77A0AA;
+}
+
+.list-group-item.active.location4 {
+    background-color: #8AB28D;
+}
+
+.location4 {
+    background-color: #8AB28D;
+}
+
+.list-group-item.active.location5 {
+    background-color: #C47752;
+}
+
+.location5 {
+    background-color: #C47752;
+}
+
+.list-group-item.active.location6 {
+    background-color: #77A0AA;
+}
+
+.location6 {
+    background-color: #77A0AA;
+}
+
+.list-group-item.active.location8 {
+    background-color: #77A0AA;
+}
+
+.location8 {
+    background-color: #77A0AA;
+}
+
+.big-glyph {
+    font-size: 2.5em;
+}
+
+/*admin panel buttons*/
+
+.adminPanelButton {
+    transition-duration: 0.3s;
+}
+
+adminPanelButton:hover{
+    transition-duration: 0.3s;
+}
+
+/* admin panel - units view */
+
+.row {
+    margin: 0;
+    height: 100vh;
+    background-color: #E7E9EB;
+}
+
+.row.narrowed {
+  height: auto;
+  background-color: #E7E9EB;
+}
+
+.row.narrowed.whitened {
+    height: auto;
+    background-color: white;
+}
+
+.container {
+    padding: 0;
+}
+
+.units-list-area {
+    padding-top: 2vh;
+    min-height: 100%;
+}
+
+.units-create-area {
+    padding-top: 2vh;
+    min-height: 100%;
+}
+
+.inline-add-county-form {
+    display: table;
+    margin-bottom: 7px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#hr-narrow-around {
+    border: 1px solid #9D9FB5;
+    margin: 0;
+}
+
+.inline-add-county-form .form-group {
+    display: table-cell;
+    width: 23%;
+    min-height: 35px;
+    float: left;
+    margin: 0 3px;
+    margin-bottom: 0;
+}
+
+.form-group.login {
+    text-align: center;
+}
+
+.inline-add-county-form .form-group:last-child {
+    position: relative;
+    width: 25%;
+}
+
+.list-group-item p {
+    margin-bottom: 0;
+}
+
+.form-group.errors-area {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.form-group.county-aside {
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.form-group button {
+    margin-left: 10px;
+}
+
+.aside-county-form .form-control {
+    font-size: 1.2em;
+    height: auto;
+    padding: 2px 5px;
+    width: 80%;
+}
+
+#inline-create-btn, #inline-cancel-btn {
+    display: table-cell;
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#inline-cancel-btn {
+    left: 60%;
+}
+
+.unit {
+    padding: 1px 0;
+}
+
+.unit.narrowed {
+    padding: 0;
+}
+
+.candidate.card {
+    height: auto;
+    width: 33%;
+    display: inline-block;
+}
+
+.glyphicon glyphicon-edit {
+    float: right;
+}
+
+.aside-county-form {
+    font-size: 0.9em;
+}
+
+.county-form-actions {
+    padding-bottom: 15px;
+    padding-top: 7px;
+    margin-left: 15px;
+}
+
+.county-add-button {
+    float: left;
+}
+
+.popoverCounty {
+    padding: 0 15px;
+}
+
+.county-cancel-button {
+    margin-left: 10px;
+}
+
+form div.form-group.browse-button-area, form div.form-group.upload-button-area {
+    display: table-cell;
+}
+
+#inline-csv-form {
+    display: table;
+    width: auto;
+}
+
+/* representatives */
+
+.col-md-1 {
+    position: relative;
+    height: 100%;
+}
+
+.remove-representative {
+    position: absolute;
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: -25%;
+}
+
+.remove-representative-tiny {
+    cursor: pointer;
+}
+
+#unit-header {
+    display: table;
+    width: 100%;
+}
+
+.unit-actions-area {
+    display: table-cell;
+    float: right;
+}
+
+.unit-name-area {
+  display: table-cell;
+  float: left;
+}
+
+#reps-view-actions-bar {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+
+.verticals {
+    display: table;
+}
+
+.inline-search {
+    float: right;
+    margin-right: 20px;
+}
+
+/* candidate-card */
+
+.candidate-card {
+    height: auto;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.row.candidate-card-low {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.row-autoheight {
+    height: auto;
+}
+
+.candidate-card-wide {
+    width: 100%;
+}
+
+/* validations */
+
+.inline-form-errors {
+    display: block;
+    max-width: 50%;
+    margin-top: 10px;
+}
+
+.alert.alert-danger.root-error, .alert.alert-danger.error, .alert.alert-info.error {
+    padding: 3px;
+    padding-left: 15px;
+    text-align: left;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.alert.alert-danger.root-error {
+    border-radius: 4px;
+}
+
+.alert.alert-danger.root-error .root-message {
+    font-weight: bold;
+}
+
+/* confirmations */
+
+.confirmation-buttons {
+    margin-top: 10px;
+}
+
+.remove-units-element {
+    cursor: pointer;
+}
+
+/* COUNTY RESULTS */
+
+#sort-select-district select, #sort-select-county select {
+    width: 100%;
+}
+
+.county-results {
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.county-results .form-control.county-results-input {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    padding: inherit 0;
+}
+
+.candidate-votes-input {
+    text-align: right;
+    position: relative;
+    height: 150%;
+}
+
+.candidate-votes-input .form-control.county-results-input {
+    text-align: right;
+    position: absolute;
+    height: 100%;
+    top: -15%;
+    right: 8%;
+}
+
+.btn.btn-default.btn-sm.floaters-right {
+    float: right;
+    margin-right: 15px;
+}
+
+.btn.btn-default.btn-xs.floaters-right {
+    float: right;
+    margin-right: 15px;
+}
+
+.btn-sm.confirmed-floaters {
+    float: right;
+    margin-right: 15px;
+    display: table-cell;
+    padding: 0;
+}
+
+.county-results-form-btns {
+    width: 50%;
+}
+
+/* current-time */
+
+#current-time {
+    float: right;
+    margin-right: 15px;
+    display: table-cell;
+}
+
+/* sort buttons */
+
+.no-background {
+    background-color: Transparent;
+    color: #006B96;
+    float: right;
+    margin-right: 20px;
+}
+
+/* OSVALDO */
+
+.firstDivAfterHeader{
+    padding: 5px;
+    margin: 5px;
+}
+
+.navBarTitle{
+    background-color: #006b96;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 13px;
+}
+
+.navBarButton{
+    background-color: #006b96;
+    border-radius: 0px;
+    border: 1px #006b96;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+    font-size: large;
+}
+
+.navBarButton:hover{
+    background-color: white;
+    color: #006b96;
+}
+
+#homePageButton{
+    font-weight: bold;
+}
+
+#homePageButtonsRow{
+    width: 90%;
+    margin: 10vh auto;
+}
+
+.NoUnderlineLink:hover{
+    text-decoration:none;
+}
+
+.innerButtonDiv{
+    font-size: 17px;
+}
+
+#homeButton{
+    background-color: #006b96;
+    border-radius: 4px;
+    border: 1px #006b96;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#homeButton:hover {
+    background-color: white;
+    color: #006b96;
+}
+
+.frontPageButton{
+    transition-duration: 0.3s;
+    font-size: 25px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: block;
+    color: black;
+    width: 225px;
+    height: 100px;
+
+}
+
+#btn1{
+    /*!*-webkit-transition-duration: 0.5s;*! for safari*/
+    background-color: white;
+    border: 3px solid green;
+    /*padding: 20px 40px;*/
+    /*padding-top: 23px;*/
+}
+
+#btn1:hover {
+    background-color:  green;
+    color: white;
+}
+
+#btn2{
+    background-color: white;
+    border: 3px solid steelblue;
+    /*padding: 20px 40px;*/
+    /*padding-top: 23px;*/
+}
+
+#btn2:hover{
+    background-color: steelblue;
+    color: white;
+}
+
+#btn3{
+    background-color: white;
+    border: 3px solid darkred;
+    /*padding: 23px 40px;*/
+}
+
+#btn3:hover{
+    background-color: darkred;
+    color: white;
+}
+
+#btn4{
+    background-color: white;
+    border: 3px solid darkred;
+    /*padding: 23px 40px;*/
+}
+
+#btn4:hover{
+    background-color: #ffde71;
+    color: white;
+}
+
+.HomePageRow
+{
+    margin: 0 auto;
+    display: table;
+    width: 80%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.HomePageColumn
+{
+    display: table-cell;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+.navbar-default {
+    font-size: 1.15em;
+    font-weight: 400;
+    background-color: #006b96;
+    padding: 10px;
+    margin-bottom: 0;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #cbf0ff;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover {
+    text-decoration: none;
+    color: #ffffff !important;
+    text-shadow: 1px -1px 8px #b3e9ff;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #004059;
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #002433;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.dropdown-menu {
+    background-color: #004059;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu>li>a {
+    background-color: #004059;
+    color: white;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: #004059;
+    color:white;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #003246;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .dropdown-menu>li>a {
+        background-color: #006b96;
+        color: #ffffff;
+    }
+    .dropdown-menu>li>a:hover {
+        color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #ffffff;
+        background-color: transparent;
+    }
+
+    .dropdown-menu .divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #005577;
+    }
+} /* END Media Query */
+
+.popover-content {
+    color: #5875DB;
+    font-weight: bold;
+}
+
+/* GEOSUGGEST */
+
+.geosuggest {
+    position: relative;
+    text-align: left;
+}
+
+.geosuggest__input {
+    width: 100%;
+    padding: .2em 1em;
+    -webkit-transition: border 0.2s, box-shadow 0.2s;
+            transition: border 0.2s, box-shadow 0.2s;
+}
+
+.geosuggest__suggests {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 25em;
+    padding: 0;
+    margin-top: -1px;
+    background: #fff;
+    border: 2px solid #267dc0;
+    border-top-width: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style: none;
+    z-index: 5;
+    -webkit-transition: max-height 0.2s, border 0.2s;
+            transition: max-height 0.2s, border 0.2s;
+}
+
+.geosuggest__suggests--hidden {
+    max-height: 0;
+    overflow: hidden;
+    border-width: 0;
+}
+
+/**
+ * A geosuggest item
+ */
+.geosuggest__item {
+    font-size: 18px;
+    font-size: 1rem;
+    padding: .5em .65em;
+    cursor: pointer;
+}
+
+.geosuggest__item:hover,
+.geosuggest__item:focus {
+    background: #f5f5f5;
+}
+
+.geosuggest__item--active {
+    background: #267dc0;
+    color: #fff;
+}
+
+.geosuggest__item--active:hover,
+.geosuggest__item--active:focus {
+    background: #ccc;
+}
+
+.geosuggest__suggests--hidden {
+    max-height: 0;
+    overflow: hidden;
+    border-width: 0;
+}
+
+Modal {
+    position: relative;
+    z-index: 1000000;
+    opacity: 1.00;
+}
+
+/* PUBLIC RESULTS */
+
+h3, h4 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.h4-election {
+    margin: 40px 0px 20px 0px;
+}
+
+.table.table-bordered {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.lefters {
+    margin-left: 20px;
+}
+
+.small-p {
+    font-size: 0.8em;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.small-p.indented {
+    margin-left: 10px;
+}
+
+.centered-p {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
+/* CHARTS */
+
+.bar {
+  fill: steelblue;
+  fill-opacity: .7;
+}
+
+.axis.x text {
+    font: 14px sans-serif;
+}
+
+.axis.y text {
+    font: 16px sans-serif;
+}
+
+.axis.y > path.domain {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+svg {
+    /*background: gray;*/
+    width: 100%;
+}

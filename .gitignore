@@ -1,0 +1,21 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+target
+node_modules
+uploaded-files
+logs
+
+.classpath
+.project
+.settings
+.eclipse
+.idea
+.metadata
+.log
+*.iml
+*.ipr
